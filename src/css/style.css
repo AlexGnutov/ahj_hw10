@@ -1,0 +1,13 @@
+body {
+  font-family: Helvetica, Verdana, Tahoma, Arial, sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*General*/
+.hidden {
+  display: none;
+}

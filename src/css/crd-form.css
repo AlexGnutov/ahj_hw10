@@ -1,0 +1,51 @@
+.crd-form-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+.crd-form {
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  width: 300px;
+  height: 250px;
+  background-color: orange;
+}
+.crd-form-reason {
+  color: red;
+}
+.crd-form-input {
+  width: 150px;
+  box-sizing: border-box;
+}
+
+.crd-form-error {
+  position: relative;
+  background-color: white;
+  width: 220px;
+  min-height: 30px;
+  left: 20px;
+  top: 3px;
+  color: red;
+  font-size: small;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.crd-form-cancel-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+}
+/*General*/
+.hidden {
+  display: none;
+}

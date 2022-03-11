@@ -1,0 +1,40 @@
+.cb-form {
+  display: flex;
+}
+.cb-input {
+  width: 250px;
+  display: block;
+}
+.cb-controls {
+  display: flex;
+}
+.cb-controls-standard {}
+.cb-controls-audio {}
+.cb-controls-video {}
+
+
+.cb-button {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cb-start-audio {
+  background-image: url("../img/start-audio.svg");
+}
+.cb-start-video {
+  background-image: url("../img/start-video.svg");
+}
+.cb-cancel-audio,
+.cb-cancel-video {
+  background-image: url("../img/cancel.svg");
+}
+.cb-stop-audio,
+.cb-stop-video {
+  background-image: url("../img/confirm.svg");
+}
+
+.hidden {
+  display: none;
+}
